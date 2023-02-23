@@ -24,7 +24,7 @@ function spare(strArr) {
             if (e === 0) return true;
             return e
         })
-        count += fileterdMap.length
+        count += fileterdMap.length;
         tmpArr.push(fileterdMap)
     })
 
@@ -43,3 +43,4 @@ function spare(strArr) {
 
 console.log(spare(["01111","01110","00011","11110"])) // 3
 console.log(spare(["0111", "0011"])); // 1
+console.log(spare(["10111000","00110011","11001100"]))
